@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <script src="./JS/select.js"></script>
+    <title>Erros Explorer SIPEC/DECIPEX</title>
+
+</head>
+<body>
+    <div class="logo">
+        <figure>
+            <a href="index.html">
+              <img class="log" src="./img/logo.PNG" alt="Exprorer sipec/decipex">
+            </a>
+    </figure>
+    </div>
+
+    <div class="bar"></div>
+
+<div class="content">
+    <div class="sidebar">
+        <menu>
+          <p><strong>Veja também:</strong></p>
+          <details>
+            <summary>Erros</summary>
+            <ol id="errosList">
+              <li><a href="#" onclick="showErrorText('erroValidacao')">Erro na Validação cadastral</a></li>
+              <li><a href="#" onclick="showErrorText('erroCertificado')">Erro no Certificado digital</a></li>
+              <li><a href="#" onclick="showErrorText('erroCentral')">Erro ao acessar a Central Sipec</a></li>
+              <li><a href="#" onclick="showErrorText('erroface')">Reconhecimento facial inválido</a></li>
+              <li><a href="#" onclick="showErrorText('corraca')">validação cadastral não aparece cor e raça</a></li>
+              <li><a href="#" onclick="showErrorText('Oportunidades')">Sougov - Oportunidades erro não consegue se cadastrar a vaga</a></li>
+              <li><a href="#" onclick="showErrorText('cod')">Não recebeu o Código de Verificação de Duas Etapas</a></li>
+            </ol>
+          </details>
+          <details>
+            <summary>Bloqueio</summary>
+            <ol id="errosList">
+              <li><a href="#" onclick="showErrorText('acessonegado')">Acesso Negado SIGEPE</a></li>
+              <li><a href="#" onclick="showErrorText('bloqueiosougov')">Bloqueio de senha Sougov</a></li>
+              <li><a href="#" onclick="showErrorText('credencial')">Recuperar credenciais de Certificado digital</a></li>
+            </ol>
+          </details>
+        </menu>
+      </div>
+      
+    <!-- campo textos scripts que os colaboradores devem usar atrelado ao menu-->
+
+      <main class="main">
+        <!--erro-->
+        <div id="erroValidacao" style="display: none;">
+          <h2>Erro na Validação cadastral</h2>
+          <p>Prezado(a), Usuário(a)</p>
+
+          <p>sua solicitação foi analisada. Siga os seguintes passos:</p>
+            
+          <p>Erro na validação cadastral: usuário deverá deslogar e logar novamente do SOUGOV.BR</p>
+            
+            Estamos cientes de que há uma grande demanda de log e isso tem impactado o desempenho do sistema. Queremos assegurar a todos que estamos trabalhando diligentemente para resolver essa questão e melhorar a velocidade de resposta. Agradecemos sua compreensão e paciência enquanto trabalhamos para otimizar o SOUGOV e oferecer a melhor experiência possível.<br>
+            
+             <p>Atenciosamente,
+            Equipe suporte técnico.</p>
+        </div>
+      
+        <div id="erroCertificado" style="display: none;">
+          <h2>Erro no Certificado digital</h2>
+          <img src="./img/errodig1.png">
+          <img src="./img/errodig2.png">
+        <p>Antes de seguir com script orientar usuário:</p>
+
+        <p> I.Realizar limpeza de cache, <br>
+            II. Desinstalar o app <br>
+            III. Reiniciar o celular  <br>
+            IV. Instalar novamente.</p>
+            
+        <h4>Prezado(a), Usuário(a)</h4>
+            
+            Sua Solicitação foi analisada.<br>
+            
+            O erro no certificado  digital  foi resolvido.<br>
+            
+            Em caso de erro orientar cadastrar  outra demanda no Atendimento Órgão.<br>
+        <p>
+            Atenciosamente,<br>
+            Equipe de suporte tecnico.</p>
+        </div>
+      
+        <div id="erroCentral" style="display: none;">
+          <h2>Erro ao acessar a Central Sipec</h2>
+        <p>Prezado(a), Usuário(a)</p><br>
+
+        <p>sua solicitação foi analisada. Siga os seguintes passos:<br></p>
+
+            Seus dados (Nome Completo, Cpf, E-mail informados em ligação) foram encaminhados ao setor de TI responsável pela Central Sipec. Pedimos que aguarde 24H para que o setor possa entrar em contato como proceder à sua solicitação.
+        <p>
+            Atenciosamente,<br>
+            Equipe suporte técnico.</p>
+        </div>
+
+        <div id="erroface" style="display: none;">
+            <h2>Reconhecimento facial inválido</h2>
+            <p>Prezado(a), Usuário(a)</p>
+
+            <p> sua solicitação foi analisada. Siga os seguintes passos:</p>
+            
+            <p>Seu reconhecimento facial pode ser inválido por diferentes razões. O aplicativo gov.br faz a leitura da sua foto e sua biometria facial e encaminha esses dados biométricos para as bases da Justiça Eleitoral ou do Denatran para comparação.</p>
+            
+            <p>Se a foto e biometria facial enviadas não baterem com os seus dados que constam nessas bases, dentro dos parâmetros mínimos de “acurácia” (semelhança entre os dados comparados), seu reconhecimento facial é considerado inválido. Nesse caso, você não pode utilizar a opção de reconhecimento facial para criação da conta gov.br.</p>
+            
+            <p> O reconhecimento facial também pode ser inválido por motivos relacionados à qualidade da sua foto, quando você está em um ambiente escuro ou com objetos cobrindo seu rosto, ou aspectos da sua biometria facial que diferem da base de dados.</p>
+            
+            <p>Mas não se preocupe, se o seu reconhecimento facial for inválido, você pode criar sua conta gov.br de outras formas, ao clicar em “Tentar de outra forma”.</p>  </p>
+            
+            Atenciosamente,<br>
+            Equipe suporte técnico.
+          </div>
+
+          <div id="corraca" style="display: none;">
+            <h2>Validação cadastral não aparece cor e raça</h2>
+            <p></p> Prezado(a), Usuário(a)</p>
+
+            <p>Sua Solicitação foi analisada.</p>
+
+            <p>As opções de raça-cor foram determinadas com base nas 05 opções de características da população brasileira elencadas pelo IBGE.</p>
+
+            <p>Atenciosamente,<br>
+            Equipe de suporte tecnico.</p>
+          </div>
+          <div id="Oportunidades" style="display: none;">
+            <h2>Bloqueio de senha Sougov</h2>
+            <p>Prezado usuário (a):</p>
+
+            <p>Segue o link com mais informações sobre currículo e oportunidades.</p>
+            
+            <p>https://www.gov.br/servidor/pt-br/sipec/conectagente/sougov-br-modulo-curriculo-e-oportunidades </p>
+            
+            <p>É necessário que faça a abertura de chamado, direcionando ao nível 3, para solicitar regularização da inconsistência informada pela abertura do chamado.</p> 
+            
+            <p>Segue o link referente o manual central SIPEC e envio do tutorial.<br>
+                https://www.gov.br/servidor/pt-br/canais_atendimento/central-sipec/manual_central-sipec-1.pdf/view</p>
+            
+            0800 978 9009 ou acesse a página do SIPEC – www.gov.br/servidor/pt-br/canais_atendimento/central-sipec
+            <p>Atenciosamente,<br>
+            Equipe de suporte tecnico.</p>
+          </div>
+          <div id="cod" style="display: none;">
+            <h2>Não recebeu o Código de Verificação de Duas Etapas</h2>
+            
+            <p>Prezado usuário (a):</p> 
+
+            <p>sua solicitação foi analisada. Siga os seguintes passos:</p>
+            
+            <p>No momento da assinatura eletrônica de um documento no gov.br, o código de acesso será gerado de uma das seguintes formas:</p>
+            
+            <p>- Caso já tenha feito login no aplicativo gov.br, o código será gerado dentro do próprio aplicativo como uma notificação push em seu celular (não se trata de SMS). Se não tiver identificado o código, confira se todas as notificações estão liberadas em seu dispositivo.</p>
+            
+            <p> - Caso ainda não tenha feito login no aplicativo gov.br, o código será enviado por SMS. Se não tiver identificado o código, confira se o número de telefone cadastrado em sua conta gov.br está correto, se o sinal da operadora telefônica está adequado, se possui o serviço de envio de mensagens ativo em seu plano de telefonia e se existem créditos, quando aplicável.</p>
+            
+            <p> Você pode acessar o aplicativo gov.br em seu dispositivo móvel a qualquer momento para que o código de acesso seja gerado como uma notificação push. Da mesma forma, você pode sair da sessão logada do aplicativo em Menu > Sair, para que o código seja enviado por SMS</p>
+            
+
+            <p>Atenciosamente,<br>
+            Equipe de suporte tecnico.</p>
+          </div>
+
+
+            <!--erro-->
+            <!--Bloqueio-->
+
+          <div id="acessonegado" style="display: none;">
+            <h2>Acesso Negado SIGEPE</h2>
+            <p>Prezado(a), Usuário(a)</p>
+
+            <p>sua solicitação foi analisada.</p>
+
+            <p>Para esclarecimento sobre o assunto entre em contato com a Unidade de Gestão de Pessoas do seu órgão de vinculação. Caso não saiba a sua, segue o link:<br>
+
+                https://www.gov.br/servidor/pt-br/acesso-a-informacao/faq/sou-gov.br/7-localizar-unidade-de-gestao-de-pessoas/2022-localizar-unidade-de-gestao-de-pessoas</p> 
+
+            <p>Atenciosamente,<br>
+                Equipe suporte técnico.</p>
+          </div>
+          <div id="bloqueiosougov" style="display: none;">
+            <h2>Bloqueio de senha Sougov</h2>
+            <p>Prezado(a), Usuário(a)</p>
+
+            <p>sua solicitação foi analisada.</p>
+
+            <p>Para prosseguir com sua solicitação de Bloqueio de Senha click no link abaixo e siga as instruções:<br>
+
+                https://www.gov.br/governodigital/pt-br/atendimento-gov.br/duvidas-nos-dados-cadastrais/nao-alterei-meus-dados-cadastrais/solicitar-o-bloqueio-da-minha-conta-gov.br</p> 
+
+            <p>Atenciosamente,<br>
+                Equipe suporte técnico.</p>
+          </div>
+          <div id="credencial" style="display: none;">
+            <img src="./img/credencial.png">
+            <h2>Recuperar credenciais de Certificado digital</h2>
+            <p>Prezado(a), Usuário(a)</p>
+
+            <p>Sua Solicitação foi analisada.</p>
+            
+            
+            <p>Para prosseguir com sua solicitação de Recuperação de Credenciais do Certificado digital  click no link abaixo e siga as instruções:</p>
+            
+            <p>https://www.gov.br/servidor/pt-br/acesso-a-informacao/faq/como-recuperar-as-credenciais-do-seu-certificado-digital</p>
+            
+            <p>Atenciosamente,<br>
+                Equipe suporte técnico.</p>
+          </div>
+<!--Bloqueio-->
+
+      </main>
+
+
+
+<div class="anchors">
+    <figure>
+    <h1><strong>Fique por dentro!</strong></h1>
+    <a href="https://www.gov.br/servidor/pt-br/acesso-a-informacao/servidor/decipex/alerta-de-seguranca-a-aposentados-e-pensionistas"></a>
+    <p>Instabilidade no Sougov.br (Informe ao usuário que a área técnina já está ciente do problema e esta realizando os ajustes para que o sistema retorne a operar)<br><kbd>Atualizado em 03/07/2023</kbd></p> 
+    Caso a Caixa economica se negue a realizar a prova de vida procure o seu supervisor para que ele encaminhe os dados do usuário direto para o DECIPEX
+    </p>
+</figure>
+
+</div>
+</div>
+</div>
+
+<footer>
+    <div class="fot">
+      <p><strong> Centrais de atendimento</strong></p>
+        <li>SIPEC: 0800 978 9009</li>
+        <li>DECIPEX: 0800 978 9004</li>
+        <li>PEN: 0800 978 9005</li>
+        <li>SCDP: 0800 978 9002</li>
+        <li>COMPRAS: 0800 978 9001</li>
+        <li>TransfereGov: 0800 978 9008</li>
+    </div>
+
+    <div class="rede">
+        <strong>Redes Sociais</strong><br>
+        <a href="https://github.com/danrleisnob" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+        <a href="https://www.linkedin.com/in/danrlei-souza-4b9b10196/?originalSubdomain=br" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <a href="https://www.facebook.com/danrlei.souza.58/?locale=pt_PT" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <a href="https://www.instagram.com/souzadanrlei/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="LINK_TWITTER" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    </div>  
+</footer>
+
+</body>
+</html>
