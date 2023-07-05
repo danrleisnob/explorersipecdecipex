@@ -2,7 +2,7 @@
 
 Uma Nova forma de agilizar o atendimento dos suportes N1 ao SIPEC e DECIPEX otimizando tempo de atendimento e dando mais clareza ao atendimento.
 
-# Link Page
+# Link da Página
 
 [https://danrleisnob.github.io/explorersipecdecipex/]
 
