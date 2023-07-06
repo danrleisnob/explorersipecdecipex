@@ -32,8 +32,15 @@ a { color:rgb(255, 255, 255); text-decoration: none;}
     color: rgb(255, 255, 255);
     border-right: solid 1px #cdcdcd;
     text-decoration: none;
+    align-items: center;
 
   }
+
+  .gestao {
+    align-items: start;
+    width: 70%;
+  }
+
 .sidebar {
     background: rgb(146, 39, 39);
     color: rgb(255, 255, 255);
@@ -59,7 +66,12 @@ figure {
     align-items: center;
     justify-content: space-between;
   }
+.hist {
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
 
+}
   .logo img {
     width: 300px;
   }
