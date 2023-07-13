@@ -1,0 +1,110 @@
+    body {
+      background-image: url("logo1.PNG");
+      background-repeat: no-repeat;
+      background-size: auto;
+      color: #FFFFFF;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: rgb(173, 17, 17);
+    }
+    .container {
+      text-align: center;
+    }
+
+    h2 {
+      color: #FFFFFF;
+    }
+
+    form {
+      background-color: #555555;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      color: #FFFFFF;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 200px;
+      padding: 5px;
+      border: none;
+      border-radius: 3px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #FFFFFF;
+      color: #333333;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    footer {
+      margin-top: 40px;
+    }
+
+    .footer-links {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .footer-links li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .footer-links li:last-child {
+      margin-right: 0;
+    }
+
+    .footer-links a {
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+
+    .top-right {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    /* Estilos do balão de mensagem */
+    .balao {
+      position: fixed;
+      bottom: -100px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      visibility: hidden;
+      opacity: 0;
+      transition: bottom 0.5s ease, visibility 0s 0.5s, opacity 0.5s linear;
+    }
+
+    .balao.show {
+      bottom: 20px;
+      visibility: visible;
+      opacity: 1;
+    }
+
+    /* Estilos do balão de erro */
+    .balao-erro {
+      background-color: #f44336;
+    }
+
+    /* Estilos do balão de sucesso */
+    .balao-sucesso {
+      background-color: #4CAF50;
+    }
