@@ -6,6 +6,15 @@ Uma Nova forma de agilizar o atendimento dos suportes N1 ao SIPEC e DECIPEX otim
 
 [https://danrleisnob.github.io/explorersipecdecipex/]
 
+# 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [HTML5](<https://html.spec.whatwg.org/multipage/>)
+- [Javascript](<https://www.javascript.com/>)
+- [CSS](<https://www.css3.com/>)
+
+
 # Objetivo 
 
 Suprir uma necessidade de atualizações de informações no nosso callcenter onde o suporte N1 pode consultar informações atualizadas.
